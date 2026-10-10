@@ -1,0 +1,12 @@
+{
+  "looks": "data/totems.tsv",
+  "root": "Creature\\RetailTotems",
+  "first_display": 96000,
+  "first_model": 96000,
+  "preview_base": 9501500,
+  "subname": "Totem",
+  "sort_base": 1000,
+  "prune_textures": true,
+  "template": {"fire": 4589, "earth": 4588, "water": 4587, "air": 4590},
+  "source": "buildthehomelab/wow-mod-retail-shaman-totems data/totems.tsv. The display ids from 96000 are in that repo's\n-- patch-V.MPQ; the rest are the 3.3.5a client's own totems."
+}
