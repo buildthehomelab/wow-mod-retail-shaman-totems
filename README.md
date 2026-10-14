@@ -8,8 +8,8 @@ which has the tab, remembers what each character picked and swaps the model. A p
 
 - a small server module: its world SQL lists the looks (`data/sql/db-world/mod_retail_shaman_totems.sql`). There
   is no code to run and nothing to configure.
-- a client patch, `patch-V.MPQ`, with the models. Everyone with the patch sees everyone's
-  looks, with no client hacks.
+- a client patch with the models (`patch-V.MPQ` in the examples below; any free letter works).
+  Everyone with the patch sees everyone's looks, with no client hacks.
 
 Both are built from this repo's list of looks with
 [wow-mod-retail-creatures](https://github.com/buildthehomelab/wow-mod-retail-creatures), the
@@ -80,9 +80,10 @@ file never move. Run it only after adding a set or moving one to another phase.
 
 `--dbc` needs `CreatureDisplayInfo.dbc`, `CreatureModelData.dbc` and `AnimationData.dbc` as the
 players' client has them. A patch replaces whole files, and another pack's patch ships the same two
-creature DBCs: on a realm that also has the druid forms (patch-R), build this one with `--dbc`
-holding the two DBCs from the finished patch-R (plus the stock `AnimationData.dbc`), and rebuild it
-whenever patch-R changes. The later letter wins, so V carries R's rows.
+creature DBCs: on a realm that also has the druid forms (`patch-R.MPQ` in that pack's examples),
+build this one with `--dbc` holding the two DBCs from the finished patch-R (plus the stock `AnimationData.dbc`), and rebuild it
+whenever patch-R changes. The later letter wins, so this patch needs a later letter than the
+druid forms patch and carries its rows.
 
 The build rewrites `data/sql/db-world/mod_retail_shaman_totems.sql` to match the patch: commit it with the
 patch you ship. Ids: CreatureDisplayInfo 96000+ (the five stock sets keep the client's own ids), CreatureModelData 96000+, preview creatures in
