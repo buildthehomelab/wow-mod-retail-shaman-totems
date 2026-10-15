@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `mod_transmog_plus_forms` (
     `SortOrder` int(10) unsigned NOT NULL DEFAULT 0,
     PRIMARY KEY (`DisplayId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-DELETE FROM `mod_transmog_plus_forms` WHERE `Form` IN ('fire', 'earth', 'water', 'air');
+DELETE FROM `mod_transmog_plus_forms` WHERE `Form` IN ('fire', 'earth', 'water', 'air') AND `PreviewCreature` BETWEEN 9501500 AND 9501999;
 INSERT INTO `mod_transmog_plus_forms` (`DisplayId`, `Form`, `Name`, `UnlockPhase`, `PreviewCreature`, `SortOrder`) VALUES
 (4589, 'fire', 'Tauren Fire Totem', 0, 9501900, 1001),
 (4588, 'earth', 'Tauren Earth Totem', 0, 9501901, 1002),
