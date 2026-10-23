@@ -7,6 +7,7 @@
   "subname": "Totem",
   "sort_base": 1000,
   "prune_textures": true,
+  "effects": true,
   "template": {"fire": 4589, "earth": 4588, "water": 4587, "air": 4590},
   "source": "buildthehomelab/wow-mod-retail-shaman-totems data/totems.tsv. The display ids from 96000 are in that repo's\n-- patch-V.MPQ; the rest are the 3.3.5a client's own totems."
 }

@@ -106,9 +106,9 @@ Players can keep the patch: unused displays do nothing.
 
 - **Druid forms vanish after adding patch-V**: it was built on DBCs without the form rows. Build
   it with `--dbc` from patch-R.
-- **A retail totem has no flames, drips or sparks**: those are particle effects, which the
-  converter drops. The mesh glows and scrolling effects stay. The client's own five race sets
-  keep everything.
+- **A retail totem has no flames, drips or sparks**: the patch was built without the pack's
+  `"effects": true`, or by a converter older than its particle support. Rebuild it with a current
+  `wow-mod-retail-creatures`.
 - Anything about the models themselves (black or tiny previews, missing effects, white armour
   on other creatures): see the converter's
   [troubleshooting](https://github.com/buildthehomelab/wow-mod-retail-creatures#troubleshooting).
@@ -132,8 +132,7 @@ Category: Classes / Shaman
 - Every raid tier you clear unlocks a retail set, from the Dark Iron totems in Molten Core to
   the Maelstrom totems in Icecrown Citadel.
 
-> The retail sets are converted models. Their flames, drips and sparks are particle effects that
-> don't survive the trip; the glows and scrolling effects do.
+- The retail totems now have their flames, drips, sparks and swirling wind trails.
 
 ## License
 
