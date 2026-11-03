@@ -20,31 +20,15 @@ converter the packs share.
 `data/totems.tsv` lists 80 totem looks: 20 sets of four (fire, earth, water, air). A shaman
 picks a look per element, whatever their race.
 
-Five sets are the 3.3.5a client's own race totems. They need no patch and keep all their
-effects; any shaman can use them from the start. The other 15 are retail's, converted:
+Five sets are the 3.3.5a client's own race totems: Tauren, Orc, Troll, Dwarf and Draenei. They
+need no patch and keep all their effects. The other 15 are retail's, converted: Dark Iron, Tauren
+(Remastered), Goblin, Zandalari, Vulpera, Pandaren, Dark Shaman (Ashflare, Rusted Iron, Foulstream,
+Poisonmist), Highmountain, Mag'har, Kul Tiran, Draenor Clans, Haranir, Draenei (Remastered), Earthen
+and Maelstrom (the Legion class hall totems). Any shaman can use every set from the start.
 
-| Phase | Unlocks |
-| --- | --- |
-| 0 | Tauren, Orc, Troll, Dwarf and Draenei totems (the client's own) |
-| 1 Molten Core | Dark Iron |
-| 2 Onyxia | Tauren (Remastered), retail's remake of the classic totems |
-| 3 Blackwing Lair | Goblin |
-| 4 Zul'Gurub | Zandalari |
-| 5 AQ War Effort | Vulpera |
-| 6 Ahn'Qiraj | Pandaren |
-| 7 Naxxramas | Dark Shaman (Ashflare, Rusted Iron, Foulstream, Poisonmist) |
-| 8 Road to Outland | Highmountain |
-| 9 Karazhan / Gruul / Magtheridon | Mag'har |
-| 10 SSC / Tempest Keep | Kul Tiran |
-| 11 Hyjal / Black Temple | Draenor Clans |
-| 12 Zul'Aman | Haranir |
-| 13 Sunwell | Draenei (Remastered), retail's crystal totems |
-| 15 Ulduar | Earthen |
-| 17 Icecrown Citadel | Maelstrom (the Legion class hall totems) |
-
-Retail has no table of totem looks (a totem follows the shaman's race), so the sets, their
-retail display ids and their phases are listed in `tools/inventory.py`. To move a set,
-change its phase there and rerun it.
+Retail has no table of totem looks (a totem follows the shaman's race), so the sets and their
+retail display ids are listed in `tools/inventory.py`. It also has each set's unlock phase, 0 for
+all of them: to make a set unlock later, change its phase there and rerun it.
 
 ## Installing
 

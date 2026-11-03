@@ -43,23 +43,23 @@ STOCK = [
 ]
 
 # Retail sets: (folder, name, tier, fire, earth, water, air) retail display ids. The tier is the
-# Individual Progression state that unlocks the set (n = content n cleared).
+# Individual Progression state that unlocks the set (n = content n cleared; 0 = from the start).
 RETAIL = [
-    ("DarkIron", "Dark Iron", 1, 86433, 86435, 86434, 86432),                # Molten Core
-    ("TaurenRemastered", "Tauren (Remastered)", 2, 4589, 4588, 4587, 4590),  # Onyxia's Lair
-    ("Goblin", "Goblin", 3, 30783, 30782, 30784, 30781),                     # Blackwing Lair
-    ("Zandalari", "Zandalari", 4, 84933, 84987, 84934, 84680),               # Zul'Gurub
-    ("Vulpera", "Vulpera", 5, 94543, 94542, 94544, 94541),                   # Ahn'Qiraj War Effort
-    ("Pandaren", "Pandaren", 6, 41670, 41669, 41671, 41668),                 # Temple of Ahn'Qiraj
-    ("DarkShaman", "Dark Shaman", 7, 52510, 52509, 52511, 52512),            # Naxxramas
-    ("Highmountain", "Highmountain", 8, 81444, 81443, 81442, 81441),         # the road to Outland
-    ("Maghar", "Mag'har", 9, 86438, 86440, 86439, 86437),                    # Karazhan, Gruul, Magtheridon
-    ("KulTiran", "Kul Tiran", 10, 90695, 90691, 90694, 90693),               # SSC and Tempest Keep
-    ("DraenorClans", "Draenor Clans", 11, 54900, 54899, 54902, 54901),       # Hyjal and Black Temple
-    ("Haranir", "Haranir", 12, 139805, 139666, 139667, 139669),              # Zul'Aman
-    ("DraeneiRemastered", "Draenei (Remastered)", 13, 19074, 19073, 19075, 19071),  # Sunwell Plateau
-    ("Earthen", "Earthen", 15, 118170, 118169, 118171, 118168),              # Ulduar
-    ("Maelstrom", "Maelstrom", 17, 74647, 74649, 74648, 74650),              # Icecrown Citadel
+    ("DarkIron", "Dark Iron", 0, 86433, 86435, 86434, 86432),
+    ("TaurenRemastered", "Tauren (Remastered)", 0, 4589, 4588, 4587, 4590),
+    ("Goblin", "Goblin", 0, 30783, 30782, 30784, 30781),
+    ("Zandalari", "Zandalari", 0, 84933, 84987, 84934, 84680),
+    ("Vulpera", "Vulpera", 0, 94543, 94542, 94544, 94541),
+    ("Pandaren", "Pandaren", 0, 41670, 41669, 41671, 41668),
+    ("DarkShaman", "Dark Shaman", 0, 52510, 52509, 52511, 52512),
+    ("Highmountain", "Highmountain", 0, 81444, 81443, 81442, 81441),
+    ("Maghar", "Mag'har", 0, 86438, 86440, 86439, 86437),
+    ("KulTiran", "Kul Tiran", 0, 90695, 90691, 90694, 90693),
+    ("DraenorClans", "Draenor Clans", 0, 54900, 54899, 54902, 54901),
+    ("Haranir", "Haranir", 0, 139805, 139666, 139667, 139669),
+    ("DraeneiRemastered", "Draenei (Remastered)", 0, 19074, 19073, 19075, 19071),
+    ("Earthen", "Earthen", 0, 118170, 118169, 118171, 118168),
+    ("Maelstrom", "Maelstrom", 0, 74647, 74649, 74648, 74650),
 ]
 
 
